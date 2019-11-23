@@ -1,0 +1,23 @@
+table, th, td {
+  border: 1px solid palevioletred;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: crimson;
+  text-align: center;
+}
+
+.a {
+  background-color: firebrick;
+  color: white;
+}
+
+.b {
+  text-align: center;
+  color: brown;
+}
+
+body {
+  font-family: tahoma;
+}

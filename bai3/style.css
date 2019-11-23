@@ -1,0 +1,15 @@
+h2 {
+  text-align: center;
+  color: #FFCC00;
+}
+
+body {
+  background-color: #A06D21;
+  background-image: url(van-ly-truong-thanh-650.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+p {
+  color: white;
+}

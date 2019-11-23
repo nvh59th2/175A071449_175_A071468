@@ -1,0 +1,19 @@
+body {
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+  color: deeppink;
+}
+
+font {
+  background-color: deeppink;
+  color: white;
+}
+
+p {
+  margin-left: 20px;
+  background-color: violet;
+  font-weight: bold;
+}

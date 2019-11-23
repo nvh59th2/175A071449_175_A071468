@@ -1,0 +1,13 @@
+table, th, td {
+  border: 2px solid blue;
+  border-collapse: collapse;
+  background-color: darkseagreen;
+}
+
+.b {
+  text-align: center;
+}
+
+h1 {
+  color: darkgreen;
+}

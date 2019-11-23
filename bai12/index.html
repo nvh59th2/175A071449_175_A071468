@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tạo form và các điều khiển</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="">
+    <h1>Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+    <table style="width:100%">
+      <tr>
+        <td>Họ và tên</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Địa chỉ</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Điện thoại</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Phái</td>
+        <td>
+          <input type="radio" name="gender" value="male">Nam
+          <input type="radio" name="gender" value="male" checked>Nữ
+        </td>
+      </tr>
+      <tr>
+        <td>Nghề nghiệp</td>
+        <td>
+          <select name="" id="">
+            <option value="bacsi">Bác sĩ</option>
+            <option value="kysu">Kỹ sư</option>
+            <option value="giaovien">Giáo viên</option>
+            <option value="khac">Khác</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Chọn sản phẩm tham gia</td>
+        <td>
+          <select name="" id="">
+            <option value="kdr">Kem đánh răng</option>
+            <option value="bg">Bột giặt</option>
+            <option value="dgd">Dầu gội đầu</option>
+            <option value="st">Sữa tắm</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Số người dự đoán tham gia</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr class="b">
+        <td colspan="2"><button onclick="myFunction()">Đồng ý</button></td>
+        
+      </tr>
+      <tr>
+        <td colspan="2">
+          <script>
+            function myFunction() {
+              document.getElementById("a").innerHTML = "Bạn đã đăng ký thành công !!!";
+            }
+          </script>
+          <p id="a"></p>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  color: #006600;
+}
+
+#text2 {
+  color: #0000FF ;
+  text-decoration: underline;
+  
+}
+
+#text3 {
+  text-align: center;
+  font-weight: bold;
+  background-color: #FECFFD;
+  color: #FF3399 ;
+}
+
+p {
+  font-weight: bold;
+}
+
+#text4 {
+  text-align: center;
+  color: #006600;
+}
+
+hr {
+  width: 15%;
+  text-align: center;
+}
+
+#text5 {
+  text-align: center;
+  color: chartreuse;
+}
+
+#text6 {
+  text-align: center;
+  color: cyan;
+}
+
+.tho {
+  background-color: #FFFFCC ;
+  font-style: italic;
+}

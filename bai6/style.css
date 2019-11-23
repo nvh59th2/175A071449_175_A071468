@@ -1,0 +1,25 @@
+h2 {
+  text-align: center;
+  color: chocolate;
+  border-style: double;
+}
+
+span {
+  font-size: 30px; 
+  color: red;"
+}
+
+.a {
+  text-align: left;
+}
+
+.b {
+  background-color: chocolate;
+  color: white;
+  text-align: right;
+  font-size: 20px;
+}
+
+.c {
+  text-align: right;
+}

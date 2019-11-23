@@ -1,0 +1,27 @@
+table, th, td {
+  border: 2px solid brown;
+  border-collapse: collapse;
+}
+
+.a {
+  text-align: right;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+
+.b {
+  text-align: center;
+  width: 10%;
+}
+
+.C {
+  background-color:rgb(250, 192, 211);
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  color:red;
+}
